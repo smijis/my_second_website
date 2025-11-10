@@ -182,3 +182,36 @@ article p {
     margin-bottom: 16px;
 }
 
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.contact-form label {
+    display: block;
+    width: 100%;
+}
+
+.contact-form h2 {
+    color: var(--base-dark);
+    margin-bottom: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: var(--action);
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    padding: 16px;
+    text-align: center;
+}
+
+.socials-icon {
+    width: 40px;
+    height: 40px;
+}
